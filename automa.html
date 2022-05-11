@@ -117,7 +117,26 @@
 
                     <p>
                         De manera paralela, se cuenta con el software RobotStudio, mediante el cual podemos
-                        implementar de manera digital los robots que utilizaremos en XXXXXX 
+                        implementar de manera digital los robots que utilizaremos en XXXXXX.
+                        Para realizar la conexión de estos componentes con los dispositivos de control ubicados
+                        en un nivel superior, se hace uso del protocolo de comunicaciones OPC-UA.
+
+
+                    </p>
+                    <p>
+                        Ascendiendo al nivel 1 de la pirámide, se encuentran los controladores
+                        de los robots, así como de los PLC que se implementaran para el control de la maquinaria. Estos últimos 
+                        se logran virtualizar por medio del software Logix Emulate, realizando su programación en lenguaje ladder
+                        o en GRAFCET por medio de Studio 5000. Para los controladores de los robots, se podría hacer uso de la familia de controladores
+                        ABB IRC5, los cuales incorporan el software IoT Gateway que permite realizar 
+                        la transmisión de datos a través de protocolos como el OPC UA y MQTT, como lo ilustra la siguiente imagen:
+
+                    </p>
+                    <img src="assets/img/piramideABB.PNG"> 
+                    <p>
+                        En el siguiente nivel de la pirámide, se encuentra el nivel de supervisión SCADA, en donde es posible implementar
+                        el software ignnition
+
                     </p>
                 </div>
                 
