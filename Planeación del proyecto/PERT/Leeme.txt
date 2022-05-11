@@ -1,0 +1,2 @@
+- Se adjunta el Excel de estudio del diagrama PERT de los pasos del proyecto y el estudio de la ruta crítica
+- Varios procesos de compra de equipos se pueden condensar en uno solo, pero se hace la diferenciacion entre un equipo básico de corte de tela vs un robot industrial mas todos sus perifericos
