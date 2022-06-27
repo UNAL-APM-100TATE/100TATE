@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xml>
+  <workspace name="D:\Documentos\UNAL\Automatizacion de procesos de Manufactura\Celda Robotica\Soldadura\Equipo de soldar\diagrama de carga.rws">
+    <project name="New Project" station="" robotserienumber="" robotmodel="" eoatooling="" processshop="" engineer="" telephone="" email="" remarks="">
+      <robot name="IRB1600-6/1.45" file="C:\Program Files (x86)\ABB Industrial IT\Robotics IT\RobotLoad\ROBOTS\IRB1600\IRB1600_6_145_Robot.rbt">
+      </robot>
+      <loadcase name="hhh" wristdown="">
+        <load name="lll" mass="9.5" cgx="-100" cgy="0" cgz="0" jx="0" jy="0" jz="0" TCPx="0" TCPy="0" TCPz="0" TCPq1="1" TCPq2="0" TCPq3="0" TCPq4="0" type="UARM" />
+        <load name="NewLoad" mass="5" cgx="0" cgy="0" cgz="10" jx="0" jy="0" jz="0" TCPx="0" TCPy="0" TCPz="0" TCPq1="1" TCPq2="0" TCPq3="0" TCPq4="0" type="TOOL" />
+      </loadcase>
+    </project>
+  </workspace>
+</xml>
