@@ -128,11 +128,44 @@ Una vez se hayan doblado ambas piezas, éstas pasan a la celda robótica de sold
         <hr>
         
         
-          <div class="container wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+
+        
+                  <div class="container wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
       <div class="row">   
         <div class="col-md-1 plc-content"></div>     
         <div class="col-md-10 plc-content">
-          <h2 class="plc-title">Grafcet nivel 2: Estación de doblado de lámina </h2>
+          <h2 class="plc-title">Grafcet nivel 2: Estación de corte de lámina y diagrama ladder</h2>
+                         <p align="justify"> descripcion
+                 </p>
+          <div align="center"><img src="assets/img/controladores/corteLamina.png" alt="Grafcet nivel 2 boca de pescado"></div>
+        </div>
+        <div class="col-md-1 plc-content"></div>        
+      </div>
+    </div>
+     
+        
+        
+                 <div class="container wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+      <div class="row">   
+        <div class="col-md-1 plc-content"></div>     
+        <div class="col-md-10 plc-content">
+
+         <div align="center"> <img src="assets/img/controladores/ladder_doblado.PNG" alt="Grafcet nivel 2 boca de pescado"></div>
+        </div>
+        <div class="col-md-1 plc-content"></div>        
+      </div>
+    </div>
+         <hr>
+        
+        
+        
+        
+        
+        <div class="container wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+      <div class="row">   
+        <div class="col-md-1 plc-content"></div>     
+        <div class="col-md-10 plc-content">
+          <h2 class="plc-title">Grafcet nivel 2: Estación de doblado de lámina y diagrama ladder</h2>
                          <p align="justify">Una vez se recibe la pieza cortada de la estación de corte, se posiciona el cilindro hidráulico en su posición de inicio (Cilindro retraído SOLBU) y se verifica que el equipo no se encuentre con ninguna falla (ALARM=0), la cual puede provenir principalmente de oprimir el botón de para de emergencia. Luego, al oprimir el botón de arranque (BBON), se debe verificar que el cilindro efectivamente se encuentre retraído, a través del sensor (SBU) para empezar el recorrido de bajada o extensión del cilindro mediante la solenoide (SOLBD), esto se hará hasta que se detecte la señal del sensor de máxima bajada (SBD). Una vez detectada esta señal, mediante la activación de la solenoide (SOLBU) se regresa el cilindro a posición inicial, y parará una vez se detecte la señal del sensor máxima subida (SBU). 
 Cuando se oprima el botón de parada (BBOFF), el cilindro regresa a posición inicial sin importar la secuencia que esté haciendo.
 Mientras que si el botón oprimido es (BBEMER), se parará inmediatamente el recorrido del cilindro y se enviará una señal de alarma al centro de control.
@@ -140,19 +173,19 @@ Mientras que si el botón oprimido es (BBEMER), se parará inmediatamente el rec
 Con el diagrama ladder se detallan las características del mismo proceso, aunque se pueden evidenciar detalles más profundos como el enclavamiento de señales, y una lógica de contactos y salidas o bobinas. 
 
                  </p>
-          <div align="center"><img src="assets/img/controladores/corteLamina.png" alt="Grafcet nivel 2 boca de pescado"></div>
+          <div align="center"><img src="assets/img/controladores/grafcet_doblado (1).PNG" alt="Grafcet nivel 2 boca de pescado"></div>
         </div>
         <div class="col-md-1 plc-content"></div>        
       </div>
     </div>
-            <hr>
+     
         
         
                  <div class="container wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
       <div class="row">   
         <div class="col-md-1 plc-content"></div>     
         <div class="col-md-10 plc-content">
-          <h2 class="plc-title">Ladder - Doblado de lámina</h2>
+
          <div align="center"> <img src="assets/img/controladores/ladder_doblado.PNG" alt="Grafcet nivel 2 boca de pescado"></div>
         </div>
         <div class="col-md-1 plc-content"></div>        
@@ -163,19 +196,7 @@ Con el diagrama ladder se detallan las características del mismo proceso, aunqu
         
 
         
-        <div class="container wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-      <div class="row">   
-        <div class="col-md-1 plc-content"></div>     
-        <div class="col-md-10 plc-content">
-          <h2 class="plc-title">Grafcet nivel 2 - Doblado de lamina</h2>
-          <img src="assets/img/controladores/grafcet_doblado (1).PNG" alt="Grafcet nivel 2 boca de pescado">
-        </div>
-        <div class="col-md-1 plc-content"></div>        
-      </div>
-    </div>
-        
-            <hr>
-        
+
 
         
         
