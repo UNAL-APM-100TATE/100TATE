@@ -92,7 +92,7 @@
                   <section class="breadcrumbs">
             <div class="container">
                 <p align="justify">
-                    Esta sección tiene como objetivo dar a conocer la fabrica virtual, por medio del software Siemens NX.
+                    Esta sección tiene como objetivo dar a conocer la fabrica virtual, por medio del software Siemens NX en su apartado Mechatronics Concept Design.
                  </p>
 
             </div>
@@ -121,12 +121,14 @@
 
             <div class="icon-box">
               <h4>Máquina cortadora de lamina.</h4>
-              <p>La máquina para corte de tubos de bambú está conformada por tres mecanismos:</p>
+              <p>La máquina para corte de lamina está conformada por tres mecanismos:</p>
               <ul>
                 <li>Bandas transportadoras de entrada y salida.</li>
                 <li>Sistema de sujeción.</li>
                 <li>Corte.</li>
-              </ul> Funcionamiento
+              </ul> 
+                Para realizar la simulación en Siemens NX, fue necesario realizar un modelo 3D, el cual fue simplificado lo más que se pudo tal como se ve en la imagen.
+                 Además, se realizó un listando de los sensores, botones y motores requeridos para el funcionamiento de la maquina.
             </div>
 
           </div>
@@ -215,7 +217,7 @@
 </tbody>
 </table>
           
-          
+           <p>  </p>
           
       </div>
     </section>
@@ -250,13 +252,95 @@
               <ul>
                 <li>Bandas transportadoras de entrada y salida.</li>
                 <li>Sistema de sujeción.</li>
-                <li>Corte.</li>
+                <li>Doblado.</li>
               </ul> Funcionamiento
             </div>
 
           </div>
         </div>
 
+          <style type="text/css">
+.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
+.tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-b2ok{background-color:#9abad9;border-color:#c0c0c0;color:#000000;text-align:left;vertical-align:bottom}
+.tg .tg-oe15{background-color:#ffffff;border-color:#ffffff;text-align:left;vertical-align:top}
+.tg .tg-kaak{background-color:#ffffff;border-color:#ffffff;text-align:left;vertical-align:top}
+.tg .tg-wo29{border-color:#c0c0c0;text-align:left;vertical-align:top}
+.tg .tg-hq8n{background-color:#FFF;border-color:#c0c0c0;text-align:left;vertical-align:bottom}
+.tg .tg-0y7v{background-color:#FFF;border-color:#c0c0c0;color:#000000;text-align:left;vertical-align:bottom}
+.tg .tg-q8y0{background-color:#9abad9;border-color:#c0c0c0;text-align:left;vertical-align:bottom}
+</style>
+<table class="tg" style="undefined;table-layout: fixed; width: 965px">
+<colgroup>
+<col style="width: 134px">
+<col style="width: 101px">
+<col style="width: 207px">
+<col style="width: 523px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-oe15"></th>
+    <th class="tg-wo29">Etiqueta</th>
+    <th class="tg-wo29">Significado</th>
+    <th class="tg-wo29">Descripción</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-kaak"></td>
+    <td class="tg-hq8n"><span style="background-color:#FFF">SBU</span></td>
+    <td class="tg-0y7v"><span style="background-color:#FFF">SENSOR BENT UP</span></td>
+    <td class="tg-0y7v"><span style="background-color:#FFF">Sensor de cilindro arriba en estación de doblado de lámina</span></td>
+  </tr>
+  <tr>
+    <td class="tg-oe15"></td>
+    <td class="tg-q8y0">SBD</td>
+    <td class="tg-b2ok">SENSOR BENT DOWN</td>
+    <td class="tg-b2ok">Sensor de cilindro abajo en estación de doblado de lámina</td>
+  </tr>
+  <tr>
+    <td class="tg-kaak"></td>
+    <td class="tg-hq8n"><span style="background-color:#FFF">SBAP</span></td>
+    <td class="tg-0y7v"><span style="background-color:#FFF">SENSOR BENT ABLE PIECE</span></td>
+    <td class="tg-0y7v"><span style="background-color:#FFF">Sensor de presencia de pieza para doblez de lámina</span></td>
+  </tr>
+  <tr>
+    <td class="tg-oe15"></td>
+    <td class="tg-q8y0">BBON</td>
+    <td class="tg-b2ok">BUTTON BENT ON</td>
+    <td class="tg-b2ok">Botón de inicio de proceso de doblado</td>
+  </tr>
+  <tr>
+    <td class="tg-kaak"></td>
+    <td class="tg-hq8n"><span style="background-color:#FFF">BBOFF</span></td>
+    <td class="tg-0y7v"><span style="background-color:#FFF">BUTTON BENT OFF</span></td>
+    <td class="tg-0y7v"><span style="background-color:#FFF">Botón de apagado de proceso de doblado</span></td>
+  </tr>
+  <tr>
+    <td class="tg-oe15"></td>
+    <td class="tg-q8y0">BBEMER</td>
+    <td class="tg-b2ok">BUTTON BELT EMERGENCY</td>
+    <td class="tg-b2ok">Botón de parada de emergencia de proceso de doblado</td>
+  </tr>
+  <tr>
+    <td class="tg-kaak"></td>
+    <td class="tg-hq8n"><span style="background-color:#FFF">SOLBU</span></td>
+    <td class="tg-0y7v"><span style="background-color:#FFF">SOLENOID BENT UP</span></td>
+    <td class="tg-0y7v"><span style="background-color:#FFF">Solenoide para válvula de cilindro, cabezal arriba en estación de doblado</span></td>
+  </tr>
+  <tr>
+    <td class="tg-oe15"></td>
+    <td class="tg-q8y0">SOLBD</td>
+    <td class="tg-b2ok">SOLENOID  BENT DOWN</td>
+    <td class="tg-b2ok">Solenoide para válvula de cilindro, cabezal abajo en estación de doblado</td>
+  </tr>
+</tbody>
+</table>
+          
+          
       </div>
     </section>
         
