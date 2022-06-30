@@ -135,7 +135,7 @@ Una vez se hayan doblado ambas piezas, éstas pasan a la celda robótica de sold
         <div class="col-md-1 plc-content"></div>     
         <div class="col-md-10 plc-content">
           <h2 class="plc-title">Grafcet nivel 2: Estación de corte de lámina y diagrama ladder</h2>
-                         <p align="justify"> descripcion
+                         <p align="justify"> Para el proceso de corte de la lámina, se verifica que la boquilla esté en home (XHOME, YHOME), que la puerta esté cerrada (SCG), y que haya material disponible para el corte (SCAP). Adicionalmente, se evalúa si se ha presionado el botón de encendido para iniciar con el proceso (BCON) y, una vez cumplido esto, se inicia con el movimiento de la boquilla. El proceso se detiene bajo dos condiciones. La primera, cuando se ha presionado el botón de apagado (BCOFF) el cual produce que la boquilla vaya a home. En la segunda condición, se tiene el botón de emergencia (BCEMER) el cual provocará que el proceso de soldadura se detenga hasta que se presione el botón de encendido para reanudar la operación. Al momento en que se reanuda la operación, se sigue con la trayectoria de corte y al final la boquilla retorna a home.
                  </p>
           <div align="center"><img src="assets/img/controladores/corteLamina.png" alt="Grafcet nivel 2 boca de pescado"></div>
         </div>
