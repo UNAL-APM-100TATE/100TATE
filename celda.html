@@ -121,12 +121,9 @@
                 
                 <div class="col-md-6 col-lg-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                     <div class="icon-box icon-box-green">
-                        <A href="#segundo"><img src="assets/img/silla_premium.JPG" width="300" height="300"></A>
+                        <A href="#segundo"><img src="assets/img/Celda_Robotica/EstacionCompleta.PNG" width="300" height="300"></A>
                         <h4 class="title">Celda con robot para tapizado</h4>
-                        <p class="description">La Silla Premium proporciona una mayor comodidad a los pasajeros 
-                            al incorporar un cojín suave y cómodo lo que la hace perfecta para trayectos más largos. 
-                            Se tiene un amplio catálogo de colores y diseños para que se adecue de la mejor manera
-                            con el interior del vehículo. 
+                        <p class="description">En esta celda se realiza el proceso de armado de la cojinería, que comprende el proceso de pegado de la madera con el cojín y el grapado de la tela al conjunto anteriormente pegado.
                         </p>
                     </div>
                 </div>
@@ -444,14 +441,274 @@
         <div class="container">
 
             <A name="segundo"><h1 align="center">
-                CELDA CON ROBOT PARA TAPIZADO
+                CELDA BASADA EN ROBOT PARA TAPIZADO
              </h1></A>
             <div align="center">
                 <hr class="rounded" style="width:50%"> 
             </div>
 
+
+            <div class="container" data-aos="fade-up" date-aos-delay="200">
+            <div class="row">
+                <div class="card">
+                    <div class="card-body" style="text-align:center;">
+                        <h5 class="card-title">Video Simulación</a>
+                        </h5>
+                        <iframe width="560" height="315" src="https://youtu.be/cacH50Kkf9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                        </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+            <div class="section-title" data-aos="fade-up">
+                <h2>Selección de herramienta</h2>
+            </div>
+
+            <section class="why-us" data-aos="fade-up" date-aos-delay="200">
+                <div class="container">
+    
+                    <div class="row">
+                        <div class="col-lg-4 video-box">
+                            <img center src="assets/img/Celda_Robotica\ventosa.png" class="img-fluid" alt="" width="500" height= auto>
+                        </div>
+    
+                        <div class="col-lg-8 d-flex flex-column justify-content-center p-5">
+    
+                            <div class="icon-box">
+    
+                                <h4 class="title">Ventosa</h4>
+                                <p align="justify">Se ha diseñado la ventosa con la ayuda de la biblioteca de RobotStudio Equipment Builder. Se establecen las dimensiones de la ventosa en base a las dimensiones de la madera. <base href="">
+                                </p> 
+                            </div>
+    
+                        </div>
+    
+                    </div>
+                </div>
+            </section>
+
+    
+
+
+
+        
+            <div class="section-title" data-aos="fade-up">
+                <h2>Selección del robot</h2>
+            </div>
+    
+    
+            <section class="why-us" data-aos="fade-up" date-aos-delay="200">
+                <div class="container">
+    
+                    <div class="row">
+                        <div class="col-lg-4 video-box">
+                            <img center src="assets\img\Celda_Robotica\IRB4400.JPG" class="img-fluid" alt="">
+                        </div>
+    
+                        <div class="col-lg-8 d-flex flex-column justify-content-center p-5">
+    
+                            <div class="icon-box">
+    
+                                <h4 class="title">Manipulación de la pieza fabricada</h4>
+                                <p align="justify">Para la selección del robot se tuvo en cuenta la rapidez del mismo y el espacio de trabajo que este tiene, además de la carga a soportar, que para la aplicación es relativamente baja. Para el peso se tienen los siguientes datos:</p>.</p>
+                                <ul class="c4" align="justify">
+                                    <li>Peso de la ventosa= 3 kg </li>
+                                    <li>Peso cojín y madera = 2 kg</li>
+                                </ul>
+                                <p align="justify">Con los parámetros obtenidos se procede a realizar la selección a travél 
+                                    software <a href="https://abb-robotload.software.informer.com/download/">ABB RobotLoad</a>, el 
+                                    cual hace parte de la suite de software proporcionado directamente
+                                    por ABB para la selección de robots. Al establecer diferentes casos de cargas teniendo en cuenta el
+                                    peso de las herramientas, su ubicación, sus centros de gravedad y las posibles inercias que puedan generar
+                                    en el robot, se obtuvieron los siguientes resultados: 
+                                    <img src="assets\img\Celda_Robotica\DiagCargaTapizado.png" width="600" height= auto>
+    
+                                    <p align="justify">Como resultado se evidencia que el robot seleccionado cumple con las especificaciones
+                                        propuestas y su rango de trabajo está dentro de los establecidos para la aplicación. 
+                                        <a href="https://library.e.abb.com/public/acbdcf1597cd45898a0686d66e36f5d1/3HAC042478%20PS%20IRB%204400-en.pdf?x-sign=al5nhK6+BcDB/VeQDS7VsmACzcnuTAVZFgX8xvF7r4Ze0pZDsO9dT4SsvDHSl8Wx">IRB 4400</a>, 
+                                        en su versión 6/1.45 cumple con los requisitos de la celda, el cual
+                                        tiene las siguientes características principales:
+                                    </p>
+                                    <div class="col-lg-12 video-box">
+                                        <img center src="assets/img\Celda_Robotica\TapizadoEspTrabajo.png" class="img-fluid" alt="">
+                                    </div>
+                                    <ul class="c4" align="justify">
+                                        <li>Capacidad de carga = 10 kg</li>
+                                        <li>Alcance horizontal = 2.53 m</li>
+                                        <li>Controlador = IRC5</li>
+                                    </ul>
+                            </div>
+    
+                        </div>
+    
+                    </div>
+                </div>
+            </section>
+
+
+            <div class="section-title" data-aos="fade-up">
+                <h2>Diseño Celda</h2>
+            </div>
+
+
+            <section class="why-us" data-aos="fade-up" date-aos-delay="200">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 video-box">
+                            <div class="icon-box">
+    
+                                <p align="justify"> La celda está compuesta por una banda transportadora en la cual se alimenta
+                                    tanto la madera como el cojín por medio de dos operarios. Sobre esta banda se han montado
+                                    dos máquinas. La primera de ellas es una de tipo XY, con un cabezal aplicador de pegante y que genera una trayectoria que adiciona
+                                    pegante sobre la madera.  Un sensor se ha ubicado al final de esta máquina, con el fin de detectar cuándo
+                                    la madera está debajo de la máquina, detener la banda transportadora y aplicar el pegamento.
+                                </p> 
+
+                                <p align="justify"> 
+                                    Posterior a la aplicación del pegamento, se coloca el cojín sobre la superficie de maderar que está
+                                    llena de pegamento y la banda transportadora se mueve hasta que el cojín con la madera se encuentran debajo de una máquina
+                                    que genera compresión sobre estos elementos para asegurar la sujeción entre las dos piezas. 
+                                </p>
+ 
+                                <p align="justify"> 
+                                Finalmente, la banda transportadora mueve el cojín con la madera unidos hasta el final de la misma, donde se ubica
+                                un sensor el cual genera la pausa sobre la banda transportadora y el inicio de la trayectoria por parte del robot.
+
+                                </p>  
+
+                                <img center src="assets/img/Celda_Robotica\bandaMadera.png" class="img-fluid" alt="" width="500" height= auto>
+                                
+                                <p align="justify"> 
+                                   Por otro lado, se incorpora una mesa de grapado, la cual consiste de dos ejes de rotación, 
+                                   los cuales se accionan en el momento en que se detecta que la madera con el cojín se han ubicado 
+                                   sobre la base de la mesa. 
+    
+                                </p>  
+                                <img center src="assets/img/Celda_Robotica\mesaGrapado.png" class="img-fluid" alt="" width="500" height= auto>
+
+
+                            </div>
+                            
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </section>
+
+            <div class="member-img">
+                <p align="center">
+                    <img src="assets/img/Celda_Robotica\flujoTapizado.png" class="img-fluid" alt="" width="900" height= auto>
+                </p>
+            </div>
+            
         </div>
     </section>
+
+    <section class="breadcrumbs">
+        <div class="container">
+            <h4 align="center">Seguridad en la celda robótica</h4>
+            <p align="justify"> Al diseñar la celda robótica es necesario implementar todos los elementos que 
+                permitan minimizar los riesgos al garantizar la seguridad de los operarios, el correcto funcionamiento 
+                de la celda y su correcta integración en la planta de producción. Para garantizar todos los elementos de 
+                seguridad se realizó un análisis de riesgos y peligros mediante la norma ISO 10218-1:2011 al identificar 
+                todos los posibles escenarios en los cuales la celda robótica podría generar un accidente o eventualidad. 
+                En la siguiente tabla se resumen los peligros identificados: 
+            </p>
+            <div class="member-img">
+                <p align="center">
+                    <img src="assets\img\Celda_Robotica/TablaPeligrosTap.PNG" class="img-fluid" alt="">
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="breadcrumbs">
+        <div class="container">
+            
+            <h4 align="center">
+                Elementos que componen la celda
+            </h4>
+            
+            
+            <p align="justify">
+                A partir del flujo de trabajo, los peligros y las estrategias adoptadas para minimizar cualquier eventualidad se establecieron todos los elementos necesarios en 
+                la celda para poder realizar la tarea de soldadura adecuadamente. Estos elementos son: 
+            </p>
+
+            
+        </div>
+    </section>
+
+    <section class="team" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+        <div class="container">
+
+            <div class="row justify-content-md-center">
+
+                <div class="col-lg-6 col-md-1 d-flex align-items-stretch">
+                    <div class="member">
+                        <div class="member-info">
+  
+                            <ul align="justify">
+                                <li>Robot IRB 4400L/10</li>
+                                <li>Controlador</li>
+                                <li>Fuente de energía para el robot y el controlador</li>
+                                <li>Ventosa</li>
+                                <li>Cerca de seguridad</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-8 d-flex align-items-stretch">
+                    <div class="member">
+                        <div class="member-info">
+                            <ul align="justify">
+                                <li>Banda transportadora con botones y sensores</li>
+                                <li>Banda transportadora simple</li>
+                                <li>Puerta de acceso a la celda</li>
+                                <li>Botón de parada de emergencia</li>
+                                <li>Luces de señalización para inicio, fin o error del proceso</li>
+                                <li>Pulsador para inicio de proceso </li>
+                                <li>Mesa de grapado</li>
+                                <li>Máquina de apliación de pegamento</li>
+                                <li>Máquina de compresión de los elementos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-title" data-aos="fade-up">
+        <h2>Resultados Finales</h2>
+    </div>
+    
+    <section class="breadcrumbs">
+        <div class="container">
+            <div class="member-img">
+                <p align="center">
+                    <img src="assets\img\Celda_Robotica/CeldaTap1.PNG" class=img-fluid" alt="">
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="breadcrumbs">
+        <div class="container">
+            <div class="member-img">
+                <p align="center">
+                    <img src="assets\img\Celda_Robotica/CeldaTap2.PNG" class=img-fluid" alt="">
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
 
     <!-- ======= Footer ======= -->
     <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
