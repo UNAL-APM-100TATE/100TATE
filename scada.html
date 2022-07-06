@@ -137,13 +137,55 @@
                 <hr class="rounded" style="width:20%"> 
                 </div>
                 <p align="justify">
-                    texto de prueba 2 
+                    El desarrollo del sistema SCADA depende de los parametros de entrada y salida que se han deseado colocar y del acceso de estos en el plano de conexiones presentado
+                    desde el controlador se eligen las etiquetas (TAGS) que deben ser publicados al gateway mediante protocolo OPC, en nuestro caso se publican la totalidad de las etiquetas que 
+                    corresponden a los sensores y actuadores presentes en la planta y están referenciados directamente en la virtualizacion de la fábrica y en la selección del controlador.
+                    La visibilidad de estas etiquetas presentes en el módulo del controlador se administra en el módulo que interconecta el programa Studio5000 con la red local de la fabrica,
+                    RS Linx, el cual determina el origen de las etiquetas, ya sea un controlador físico (si se usara) o virtual en nuestro caso. 
                 </p>
+                
+                <div class="member-img">
+                    <p align="center">
+                        <img src="assets\img\etiquetas.png" class="img-fluid" alt="">
+                    </p>
+                </div>
+                
                 <p align="justify">
-                    texto de prueba 3
+                    Las etiquetas son captadas por el Gateway Ignition mediante la administración de las conexiones individuales entre programas, OPC-DA provenientes de Studio5000, ABB IRC5 Server y OPC-UA proveniente de Siemens NX
+                    Se tiene en cuenta que el gateway requiere hacer una conversion entre el OPC Data Access al OPC Unified Architecture (OPC DA a OPC UA) para permitir el uso del controlador virtual con el gemelo digital 
+                    presente en el programa Siemens NX. Ya que las etiquetas son generadas directamente desde el PLC virtual pueden ser tomadas directamente desde el programa SCADA desarrollado en la plataforma
+                    propia de Ignition, Designer + Perspective, el cual permite interactuar con las etiquetas y operar mediante un entorno web de red local.
                 </p>
 
+                 <div class="member-img">
+                    <p align="center">
+                        <img src="assets\img\tags.png" class="img-fluid" alt="">
+                    </p>
+                </div>
+                
+                <p align="justify">
+                    El entorno de desarrollo web de Ignition Designer permite la organizacion de items respectivos a las etiquetas buscadas. Aunque se publican la totalidad de las etiquetas del controlador solo se resaltan algunas que 
+                    muestren el proceso de la fábrica, como el encendido/apagado de las operaciones, numero de elementos que entran o salen de cada estacion, numero de productos generados en el desarrollo de la planta
+                    y el numero de fallos ocurridos durante el dia de produccion. Se toman en cuenta las recomendaciones de diseño de interfaces mencionadas en clase y mencionadas tambien en los documentos publicados en el curso
+                </p>
 
+                <div class="member-img">
+                    <p align="center">
+                        <img src="assets\img\tags.png" class="img-fluid" alt="">
+                    </p>
+                </div>
+                
+                <div class="member-img">
+                    <p align="center">
+                        <img src="assets\img\tags.png" class="img-fluid" alt="">
+                    </p>
+                </div>
+                
+                <div class="member-img">
+                    <p align="center">
+                        <img src="assets\img\tags.png" class="img-fluid" alt="">
+                    </p>
+                </div>
 
             </div>
         </section>
